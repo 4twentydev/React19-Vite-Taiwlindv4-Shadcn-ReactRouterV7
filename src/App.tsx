@@ -8,7 +8,7 @@ import {
   Link,
   Route,
   Routes,
-} from "react-router";
+} from "react-router-dom";
 const About = () => {
   console.log("In about...");
   const [count, setCount] = useState(0);
